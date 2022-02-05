@@ -1,0 +1,7 @@
+You are now connected to database "gb_leasing" as user "jack".
+CREATE TABLE
+INSERT 0 4
+CREATE TABLE
+INSERT 0 4
+CREATE TABLE
+INSERT 0 4

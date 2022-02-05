@@ -1,0 +1,13 @@
+You are now connected to database "gb_leasing" as user "jack".
+ customer_polciy_id | customer_id | policy_id | customer_id | full_name |         full_address          |        email         | contact_num | policy_id | vehicle_id | lender |   term    | total_price | monthly_repayments |       add_ons       | lease_start | lease_end  | lease_type | vehicle_id | vehicle_name | manufacturer | year_of_manufacturer 
+--------------------+-------------+-----------+-------------+-----------+-------------------------------+----------------------+-------------+-----------+------------+--------+-----------+-------------+--------------------+---------------------+-------------+------------+------------+------------+--------------+--------------+----------------------
+                  1 |           3 |         4 |           3 | John Doe  | 03 example road, example town | example3@example.com | 11111111113 |         4 |          1 | hsbc   | 24 months | 20000       | 833                | breakdown + service | 2020-03-05  | 2022-03-05 | perosnal   |          1 | corsa        | vauxhall     | 2020
+                  2 |           2 |         5 |           2 | Jane Doe  | 02 example road, example town | example2@example.com | 11111111112 |         5 |          2 | rbs    | 24 months | 20000       | 833                | breakdown           | 2020-03-05  | 2022-03-05 | perosnal   |          2 | punto        | fiat         | 2022
+(2 rows)
+
+ lead_customer_id | customer_id | lead_id | lead_id | source | contact_num | vehicle | created_at | qualified | customer_id | full_name  |         full_address          |        email        | contact_num 
+------------------+-------------+---------+---------+--------+-------------+---------+------------+-----------+-------------+------------+-------------------------------+---------------------+-------------
+                2 |           1 |       2 |       2 | lead2  | 1613333333  |       1 | 2022-01-01 | t         |           1 | Joe Bloggs | 01 example road, example town | example@example.com | 11111111111
+                4 |           1 |       4 |       4 | lead4  | 1615555555  |       4 | 2022-01-01 | t         |           1 | Joe Bloggs | 01 example road, example town | example@example.com | 11111111111
+(2 rows)
+
